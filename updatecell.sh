@@ -1,0 +1,2 @@
+source bashrc
+cnupdatepycell PyCellsLib inverter

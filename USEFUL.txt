@@ -1,0 +1,22 @@
+source /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/synopsys/quickstart/bashrc			
+	-> source the bashrc file so that you can run commands like cngenlib
+	-> do this every time you run pycell
+
+cngenlib --create --view --techfile /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/synopsys/tech/cni130/santanaTech/Santana.tech pkg:MyTutorialPyCells MyTutorialPyCellsLib_orig /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/synopsys/MyTutorialPyCellsLib
+
+cngenlib --create --view --techfile /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/synopsys/tech/cni130/santanaTech/Santana.tech pkg:MyTutorialPyCells_orig MyTutorialPyCellsLib_orig /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/synopsys/MyTutorialPyCellsLib_orig
+
+cngenlib --create --view --techfile /net/plato.ee.Virginia.EDU/misan2/app/lib/freepdk45/trunk/ncsu_basekit/techfile/cni/Santana.tech pkg:pycells pycellsLib /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/synopsys/pycellsLib
+
+
+
+cntechconv <path to real techfile>/real65.tf
+cntechconv /net/plato.ee.Virginia.EDU/misan2/app/lib/freepdk45/trunk/ncsu_basekit/techfile/FreePDK45.tf
+
+cndispconv --cdstech = <cds tech file name> --cdsdisplay = <cds display filename> --santanatech = <santana tech filename>
+cndispconv --cdstech = <FreePDK45.tf> --cdsdisplay = display.drf --santanatech = <santana tech filename - output from above>
+
+
+
+
+

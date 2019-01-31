@@ -1,0 +1,7 @@
+DEFINE MyTutorialPyCellsLib /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/synopsys/MyTutorialPyCellsLib
+DEFINE MyTutorialPyCellsLib_old /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/synopsys/MyTutorialPyCellsLib_old
+DEFINE MyTutorialPyCellsLib_orig /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/synopsys/MyTutorialPyCellsLib_orig
+DEFINE nk_VLSI_FreePDK45 /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/nk_VLSI_FreePDK45
+DEFINE PyCells /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/synopsys/PyCells
+DEFINE PyCellsLib /net/redfox.ece.Virginia.EDU/isan0/users/nk9yx/cadence/synopsys/PyCellsLib
+DEFINE NCSU_TechLib_FreePDK45 /net/plato.ee.Virginia.EDU/misan2/app/lib/freepdk45/trunk/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
